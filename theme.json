@@ -1,7 +1,7 @@
 {
-    "id": "nodebb-theme-quickstart",
+    "id": "nodebb-theme-riabbs",
     "name": "My Theme Name",
     "description": "Enter a description here",
-    "url": "https://github.com/nodebb/nodebb-theme-quickstart",
+    "url": "https://github.com/RIA-AED/nodebb-theme-riabbs",
     "baseTheme": "nodebb-theme-harmony"
 }
