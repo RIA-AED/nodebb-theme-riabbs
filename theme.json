@@ -1,7 +1,7 @@
 {
     "id": "nodebb-theme-riabbs",
-    "name": "My Theme Name",
-    "description": "Enter a description here",
+    "name": "RIABBS Theme",
+    "description": "这个是 RIABBS (bbs.ria.red) 我们自用的 NodeBB 主题。",
     "url": "https://github.com/RIA-AED/nodebb-theme-riabbs",
     "baseTheme": "nodebb-theme-harmony"
 }
