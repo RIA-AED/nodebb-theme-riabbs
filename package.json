@@ -1,6 +1,6 @@
 {
     "name": "nodebb-theme-riabbs",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Enter a description here",
     "main": "lib/theme.js",
     "keywords": [],
@@ -17,8 +17,7 @@
             "git add"
         ]
     },
-    "dependencies": {
-    },
+    "dependencies": {},
     "devDependencies": {
         "@commitlint/cli": "11.0.0",
         "@commitlint/config-angular": "11.0.0",
