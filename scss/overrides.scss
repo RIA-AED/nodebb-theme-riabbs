@@ -77,3 +77,13 @@ $breadcrumb-item-padding-x: 12px !default;
 .form-control::placeholder, .bootstrap-tagsinput::placeholder {
 	color: $gray-500 !important;
 }
+
+// RIAPatch: Up vote now have a border
+[component="post/actions"] {
+    opacity: 1 !important;
+}
+
+[component="post/upvote"].upvoted {
+    outline: 2px solid var(--bs-gray-300);
+}
+// RIAPatch END
