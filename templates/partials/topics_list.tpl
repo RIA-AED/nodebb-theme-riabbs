@@ -69,7 +69,7 @@
 						<!-- RIAPatch: Add post author's user name -->
 						<!-- Mobile -->
 						<a href="{{{ if ./user.userslug }}}{config.relative_path}/user/{./user.userslug}{{{ else }}}#{{{ end }}}" class="border badge bg-transparent text-muted fw-normal">
-							{./user.userslug}
+							{./user.displayname}
 						</a>
 						<!-- RIAPatch End -->
 						<a href="{config.relative_path}/topic/{./slug}{{{ if (./teaser.timestampISO && !config.theme.mobileTopicTeasers) }}}/{./teaser.index}{{{ end }}}" class="border badge bg-transparent text-muted fw-normal timeago" title="{{{ if (./teaser.timestampISO && !config.theme.mobileTopicTeasers) }}}{./teaser.timestampISO}{{{ else }}}{./timestampISO}{{{ end }}}"></a>
@@ -77,7 +77,7 @@
 
 					<!-- RIAPatch: Add post author's user name -->
 					<!-- Wide -->
-					<a href="{{{ if ./user.userslug }}}{config.relative_path}/user/{./user.userslug}{{{ else }}}#{{{ end }}}" class="d-none d-lg-block badge bg-transparent text-muted fw-normal">{./user.userslug}</a>
+					<a href="{{{ if ./user.userslug }}}{config.relative_path}/user/{./user.userslug}{{{ else }}}#{{{ end }}}" class="d-none d-lg-block badge bg-transparent text-muted fw-normal">{./user.displayname}</a>
 					<!-- RIAPatch End -->
 					<a href="{config.relative_path}/topic/{./slug}" class="d-none d-lg-block badge bg-transparent text-muted fw-normal timeago" title="{./timestampISO}"></a>
 				</span>
